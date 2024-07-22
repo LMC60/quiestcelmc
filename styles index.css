@@ -5,7 +5,7 @@ body {
     padding: 0;
     background-image: url(Background.jpg);
     background-size: cover;
-    overflow: hidden;
+
 }
 
 h1 {
@@ -174,8 +174,8 @@ img{
 #BTN {
     background: none; /* Retire le fond par défaut du bouton */
     background-image: url(Bouton1.webp);
-    width: 350px; /* Largeur du bouton */
-    height: 250px; /* Hauteur du bouton */
+    width: 300px; /* Largeur du bouton */
+    height: 200px; /* Hauteur du bouton */
     background-size: cover; /* Ajuste la taille de l'image pour couvrir le bouton */
     background-repeat: no-repeat; /* Empêche la répétition de l'image */
     background-position: center; /* Centre l'image dans le bouton */
@@ -187,8 +187,25 @@ img{
 h3{
     background-color: black;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial,;
-    font-size: 25px;
+    font-size: 23px;
+    user-select: none;
 }
+
 html{
     user-select: none;
+}
+
+#Lien{
+    color: rgba(0, 191, 255, 0.750);
+}
+
+#Lien:active{
+    color: rgb(0, 191, 255, 0.750);
+}
+
+h4 {
+    color: rgba(211, 211, 211, 0.500);
+    padding: 15px 0;
+    margin: 0;
+    border-radius: 10px;
 }
